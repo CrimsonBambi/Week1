@@ -1,0 +1,39 @@
+h1 {
+  color: rgb(228, 88, 228);
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+  background-color: bisque;
+  font-size: 25px;
+}
+
+table {
+  margin: auto;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(221, 178, 125);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+  color: rgb(228, 88, 228);
+}
+a:hover {
+  color: purple;
+  background-color: rgba(240, 202, 155, 0.448);
+}
+
+img {
+  border: 10px dotted rgb(228, 88, 228);
+  border-radius: 50px;
+}
