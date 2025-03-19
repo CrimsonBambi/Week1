@@ -4,7 +4,7 @@ console.log('JS recap2 task 4')
 const numbers = ['4', '6','2','1','7'];
 
 function sorting(array) {
-    let sortedArray = array.slice().sort((a, b) => a - b);
+    let sortedArray = array.slice().sort((a, b) => a - b); //copies numbers array, and sorts it into a new array in ascending order
     return sortedArray; 
 }
 
